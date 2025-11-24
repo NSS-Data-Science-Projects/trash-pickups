@@ -15,12 +15,14 @@ Your goal is to practice working with dates, times, and time-based aggregation i
 Answer these simpler questions first:  
 1. Which day of the week has the highest number of missed pickups?
 2. Missed pickups over time:  
-    * Calculate weekly or monthly counts of missed pickups using resample().
+    * Find the total number of missed pickups by month. Plot this with a line chart.  
+    * Create a plot showing the number of missed pickups per day.  
     * Compute a rolling 30-day average of daily missed pickups. Visualize your results with a line chart to see trends.
 
 **Step 3: Main Task – 180-Day Rolling Fine Calculation**
 Metro Nashville charges fines for excessive missed trash pickups. It uses the following method to fine the total fine:  A $1500 fine is charged for each missed pickup that is the third or subsequent one at the same address within a 180-day window. Multiple fines may apply to the same address.  
-Your task is to calculate the total fines across all addresses.
+Your task is to calculate the total fines across all addresses.  
+**Hint:** The rolling method can be use in combination with groupby.
 
 **Step 4: Bonus Questions**
 * What other types of complaints are there?
