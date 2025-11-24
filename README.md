@@ -15,3 +15,6 @@ After determining the total amount of damages, you can look at other questions:
 * What were to total missed pickup by route?
 
 
+### Bonus
+
+The actual method of calculating damages is that for each address, if there are three or more missed pickups within a 180-day period at that address, damages of $1500 are charged. What is the total fine using this method?
